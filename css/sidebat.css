@@ -1,0 +1,83 @@
+table thead {
+	background-color: #4760e9;
+	color: azure;
+}
+
+.fondo {
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.623)), url("../img/logo3.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.fondo::before {
+	content: "";
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(5px);
+}
+
+/*.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*min-height: 100vh;
+    }*/
+.abs-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 320;
+	height: 320;
+}
+
+#lista {
+	float: left;
+}
+
+.card {
+	border-collapse: collapse;
+	cursor: pointer;
+}
+
+
+
+.music-service-list__img {
+	float: left;
+	margin: 0.5rem;
+	width: 12.5rem;
+	height: 4rem;
+}
+.music-service-list__btn .btn-label {
+	display: inline-block;
+	max-width: 15rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+    }
+
+
+.music-service-list__btn {
+	float: right;
+	margin: 1.0rem;
+	background-color: transparent;
+	letter-spacing: .03rem;
+}
+
+.btn-label {
+	display: block;
+	padding: 0 1rem;
+	-webkit-transition: background-color .25s ease, border-color .25s ease;
+	transition: background-color .25s ease, border-color .25s ease;
+	border: 1px;
+	border-radius: 0.4rem;
+}
+
+li{
+	list-style:none
+}
