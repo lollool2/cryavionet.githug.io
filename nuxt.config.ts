@@ -11,5 +11,5 @@ export default defineNuxtConfig({
     '~/css/bulma/bulma.css',
      // SCSS file in the project
     '~/css/bulma/bulma.scss'
-  ]
+  ],
 })
